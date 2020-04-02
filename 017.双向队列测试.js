@@ -1,0 +1,13 @@
+let Deque = require('./016.双向队列Deque')
+
+let queue = new Deque()
+queue.push('廉永成')
+queue.push('李志帅')
+queue.push('陆婷婷')
+queue.push('海洋')
+queue.unshift('白树杰')
+queue.unshift('冯瑶')
+console.log(queue)
+queue.pop()
+queue.shift()
+console.log(queue)

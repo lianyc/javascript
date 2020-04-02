@@ -1,0 +1,10 @@
+let LinkList = require('./020.双向链表LinkList')
+
+let linkList = new LinkList()
+linkList.insert('廉永成', 'head')
+linkList.insert('李志帅', '廉永成')
+linkList.insert('白树杰', 'head')
+linkList.insert('陆婷婷', '廉永成')
+linkList.display()
+console.log('--------------------')
+linkList.displayReverse()
